@@ -1,0 +1,25 @@
+{
+	"name": "skhale/recipe-manager",
+	"description": "Recipe Management Web Application",
+	"type": "project",
+	"minimum-stability": "dev",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Stephen Hale",
+			"email": "skhale@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-bootstrap": "*",
+		"components/font-awesome": "4.2.*"
+	},
+	"extra": {
+		"asset-installer-paths": {
+			"npm-asset-library": "vendor/npm",
+			"bower-asset-library": "vendor/bower"
+		}
+	}
+}
