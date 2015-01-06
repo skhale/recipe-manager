@@ -1,0 +1,30 @@
+html, body {
+    /*height: 100%;*/
+}
+
+.wrap {
+    /*min-height: 100%;*/
+    height: auto;
+    width: auto;
+    margin: 50px 30px 0 30px;
+    padding: 0;
+}
+
+.footer {
+    display: none; /* remove me */
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding: 20px 30px;
+}
+
+.recipe-view-tabs .tab-content {
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    padding: 10px 10px 10px 20px;
+}
+
+.recipe-view-tabs .nav-tabs li a {
+    font-weight: bold;
+}
